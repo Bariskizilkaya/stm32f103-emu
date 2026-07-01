@@ -1,0 +1,5 @@
+/home/asd/Documents/project/emulator_fundementals/stm32f103_emu/build/CMakeFiles/stm32f103_emu_lib.dir
+/home/asd/Documents/project/emulator_fundementals/stm32f103_emu/build/CMakeFiles/stm32f103_emu.dir
+/home/asd/Documents/project/emulator_fundementals/stm32f103_emu/build/CMakeFiles/stm32f103_fuzzer.dir
+/home/asd/Documents/project/emulator_fundementals/stm32f103_emu/build/CMakeFiles/edit_cache.dir
+/home/asd/Documents/project/emulator_fundementals/stm32f103_emu/build/CMakeFiles/rebuild_cache.dir

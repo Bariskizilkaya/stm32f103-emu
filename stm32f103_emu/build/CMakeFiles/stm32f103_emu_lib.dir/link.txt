@@ -1,0 +1,2 @@
+/usr/bin/ar qc libstm32f103_emu_lib.a CMakeFiles/stm32f103_emu_lib.dir/src/emu.cpp.o CMakeFiles/stm32f103_emu_lib.dir/src/registers.cpp.o CMakeFiles/stm32f103_emu_lib.dir/src/programparser.cpp.o CMakeFiles/stm32f103_emu_lib.dir/src/elfloader.cpp.o CMakeFiles/stm32f103_emu_lib.dir/src/memory.cpp.o CMakeFiles/stm32f103_emu_lib.dir/src/peripherals.cpp.o CMakeFiles/stm32f103_emu_lib.dir/src/cpu.cpp.o CMakeFiles/stm32f103_emu_lib.dir/src/fuzzer.cpp.o
+/usr/bin/ranlib libstm32f103_emu_lib.a

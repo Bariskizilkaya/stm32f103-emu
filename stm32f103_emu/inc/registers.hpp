@@ -1,0 +1,70 @@
+#include <cstdint>
+
+class Registers {
+public:
+    uint32_t R0 = 0;
+    uint32_t R1 = 0;
+    uint32_t R2 = 0;
+    uint32_t R3 = 0;
+    uint32_t R4 = 0;
+    uint32_t R5 = 0;
+    uint32_t R6 = 0;
+    uint32_t R7 = 0;
+    uint32_t R8 = 0;
+    uint32_t R9 = 0;
+    uint32_t R10 = 0;
+    uint32_t R11 = 0;
+    uint32_t R12 = 0;
+    uint32_t SP_R13 = 0;
+    uint32_t LR = 0;
+    uint32_t PC = 0;
+    uint32_t PSR = 0;
+    uint32_t PRIMASK = 0;
+    uint32_t FAULTMASK = 0;
+    uint32_t BASEPRI = 0;
+    uint32_t CONTROL = 0;
+
+    void setR0(uint32_t value);
+    void setR1(uint32_t value);
+    void setR2(uint32_t value);
+    void setR3(uint32_t value);
+    void setR4(uint32_t value);
+    void setR5(uint32_t value);
+    void setR6(uint32_t value);
+    void setR7(uint32_t value);
+    void setR8(uint32_t value);
+    void setR9(uint32_t value);
+    void setR10(uint32_t value);
+    void setR11(uint32_t value);
+    void setR12(uint32_t value);
+    void setSP_R13(uint32_t value);
+    void setLR(uint32_t value);
+    void setPC(uint32_t value);
+    void setPSR(uint32_t value);
+    void setPRIMASK(uint32_t value);
+    void setFAULTMASK(uint32_t value);
+    void setBASEPRI(uint32_t value);
+    void setCONTROL(uint32_t value);
+
+    uint32_t getR0() const;
+    uint32_t getR1() const;
+    uint32_t getR2() const;
+    uint32_t getR3() const;
+    uint32_t getR4() const;
+    uint32_t getR5() const;
+    uint32_t getR6() const;
+    uint32_t getR7() const;
+    uint32_t getR8() const;
+    uint32_t getR9() const;
+    uint32_t getR10() const;
+    uint32_t getR11() const;
+    uint32_t getR12() const;
+    uint32_t getSP_R13() const;
+    uint32_t getLR() const;
+    uint32_t getPC() const;
+    uint32_t getPSR() const;
+    uint32_t getPRIMASK() const;
+    uint32_t getFAULTMASK() const;
+    uint32_t getBASEPRI() const;
+    uint32_t getCONTROL() const;
+};
