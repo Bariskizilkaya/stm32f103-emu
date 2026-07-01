@@ -1,1 +1,7 @@
-# stm32f103-emu
+## stm32f103-emu
+
+STM32F103 Emulator and Fuzzer
+
+```
+./build/stm32f103_fuzzer <firmware.elf> [iterations] [max_cycles] [crash_dir]
+```
